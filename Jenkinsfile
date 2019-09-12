@@ -21,11 +21,6 @@ pipeline {
                 mvn test
                 }
         }
-	 stage('Maven package'){
-            steps {
-                mvn package
-                }
-        }
 
 
         stage('Maven Build'){
